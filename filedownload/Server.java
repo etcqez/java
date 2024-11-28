@@ -21,7 +21,7 @@ public class Server {
         String resFileName = ""; //返回的文件名
 
         //创建一个输入流，读取文件
-        
+        new 
 
     }
 }
