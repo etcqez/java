@@ -15,7 +15,7 @@ public class TCPFileUploadServer {
         BufferedInputStream bis = new BufferedInputStream(socket.getInputStream());
         byte[] bytes = StreamUtils.streamToByteArray(bis);
         //将得到 bytes数组，写入到指定路径，就得到一个文件了
-        String destFilePath = "src/cat2.png";
+        String destFilePath = "fileupload/cat2.png";
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(destFilePath));
         bos.write(bytes);
 
