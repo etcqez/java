@@ -1,5 +1,6 @@
 package filedownload;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetAddress;
@@ -18,6 +19,6 @@ public class Client {
         socket.shutdownOutput();
 
         //读取服务端返回的文件
-        new 
+        new BufferedInputStream()
     }
 }
