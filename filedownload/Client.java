@@ -25,6 +25,7 @@ public class Client {
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(filePath));
         bufferedOutputStream.write(bytes);
 
-        //关闭
+        //关闭相关流
+        
     }
 }
