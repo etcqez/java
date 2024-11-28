@@ -11,7 +11,8 @@ public class UDPReceiverA {
         //创建一个DatagramPacket对象，准备接收数据
         //一个数据包最大64k
         byte[] buf = new byte[1024];
-        DatagramPacket datagramPacket = new DatagramPacket(buf, buf.length);
+        DatagramPacket packet = new DatagramPacket(buf, buf.length);
+        
 
 
     }
