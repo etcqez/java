@@ -1,5 +1,6 @@
 package filedownload;
 
+import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
@@ -9,6 +10,6 @@ public class Client {
         System.out.println("请输入下载的文件名");
         String downloadFileName = scanner.next();
 
-        new Socket()
+        new Socket(InetAddress.getLocalHost())
     }
 }
