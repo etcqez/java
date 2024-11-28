@@ -1,7 +1,8 @@
+package fileupload;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class TCPFileUploadClient {
     public static void main(String[] args) throws Exception {
