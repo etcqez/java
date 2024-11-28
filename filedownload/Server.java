@@ -34,6 +34,7 @@ public class Server {
         accept.shutdownOutput();
 
         //关闭相关流
+        bufferedOutputStream.close();
         bufferedInputStream.close();
         inputStream.close();
 
