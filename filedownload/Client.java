@@ -31,5 +31,7 @@ public class Client {
         outputStream.close();
         socket.close();
 
+        System.out.println("客启端下载完毕退出");
+
     }
 }
