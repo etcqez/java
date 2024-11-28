@@ -1,6 +1,7 @@
 package filedownload;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetAddress;
@@ -23,6 +24,6 @@ public class Client {
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
         //写入磁盘
-        
+        new BufferedOutputStream()
     }
 }
