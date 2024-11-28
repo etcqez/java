@@ -24,5 +24,7 @@ public class Client {
         String filePath = downloadFileName + ".jpeg";
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(filePath));
         bufferedOutputStream.write(bytes);
+
+        //关闭
     }
 }
