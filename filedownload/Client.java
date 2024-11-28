@@ -10,6 +10,6 @@ public class Client {
         System.out.println("请输入下载的文件名");
         String downloadFileName = scanner.next();
 
-        new Socket(InetAddress.getLocalHost())
+        new Socket(InetAddress.getLocalHost(), 9999)
     }
 }
