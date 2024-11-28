@@ -27,7 +27,6 @@ public class Server {
             resFileName = "dog.jpg";
         }
 
-
         //创建一个输入流，读取文件
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream());
 
