@@ -4,6 +4,6 @@ import java.net.ServerSocket;
 
 public class Server {
     public static void main(String[] args) {
-//        new ServerSocket(9999).close();
-//    }
+        ServerSocket serverSocket = new ServerSocket(9999);
+    }
 }
