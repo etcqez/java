@@ -22,6 +22,6 @@ public class Client {
 
         //写入磁盘
         String filePath = downloadFileName + ".jpeg";
-        new BufferedOutputStream(new FileOutputStream())
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(filePath));
     }
 }
