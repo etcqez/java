@@ -9,7 +9,7 @@ public class Server {
         ServerSocket serverSocket = new ServerSocket(9999);
         Socket accept = serverSocket.accept();
         //读取客启端要下载的文件名
-        
+        accept.getInputStream()
 
     }
 }
