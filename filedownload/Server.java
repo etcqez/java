@@ -13,7 +13,7 @@ public class Server {
         InputStream inputStream = accept.getInputStream();
         byte[] bytes = new byte[1024];
         int len = 0;
-        while ((len = inputStream.read(bytes),))
+        while ((len = inputStream.read(bytes) != -1))
 
     }
 }
