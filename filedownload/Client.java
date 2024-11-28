@@ -21,7 +21,7 @@ public class Client {
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
         //写入磁盘
-        String filePath = ""
+        String filePath = downloadFileName
         new BufferedOutputStream(new FileOutputStream())
     }
 }
