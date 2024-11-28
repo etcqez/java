@@ -28,6 +28,7 @@ public class Client {
         //关闭相关流
         bufferedOutputStream.close();
         bufferedInputStream.close();
+        outputStream.close();
         socket.close();
 
     }
