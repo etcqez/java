@@ -1,9 +1,6 @@
 package filedownload;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -32,7 +29,7 @@ public class Server {
 
         //使用工具类，读取一个文件到字符数组
         byte[] bytes1 = StreamUtils.streamToByteArray(bufferedInputStream);
-        
+        new BufferedOutputStream()
 
 
     }
