@@ -16,5 +16,7 @@ public class Client {
         OutputStream outputStream = socket.getOutputStream();
         outputStream.write(downloadFileName.getBytes());
         socket.shutdownOutput();
+
+        //读取服务端
     }
 }
