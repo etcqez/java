@@ -16,7 +16,7 @@ public class Server {
         String downloadFileName = "";
         while ((len = inputStream.read(bytes)) != -1) {
             downloadFileName += new String(bytes, 0, len);
-            System.out.println("客启端希望下载的文件名="+downloadFileName);
+            System.out.println("客启端希望下载的文件名=" + downloadFileName);
 
         }
 
