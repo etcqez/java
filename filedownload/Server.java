@@ -18,7 +18,7 @@ public class Server {
             downloadFileName += new String(bytes, 0, len);
             System.out.println("客启端希望下载的文件名=" + downloadFileName);
         }
-        String resFile
+        String resFileName
 
     }
 }
