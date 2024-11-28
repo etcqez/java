@@ -41,5 +41,7 @@ public class Server {
         accept.close();
         serverSocket.close();
 
+        System.out.println("");
+
     }
 }
