@@ -21,7 +21,7 @@ public class Server {
             System.out.println("客启端希望下载的文件名=" + downloadFileName);
         }
         String resFileName = ""; //返回的文件名
-        if ("cat.jpg".)
+        if ("cat.jpg".equals(downloadFileName))
 
 
         //创建一个输入流，读取文件
