@@ -19,6 +19,6 @@ public class Client {
         socket.shutdownOutput();
 
         //读取服务端返回的文件
-        new BufferedInputStream(socket.getInputStream())
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(socket.getInputStream());
     }
 }
