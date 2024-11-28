@@ -22,6 +22,7 @@ public class Client {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(socket.getInputStream());
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
-        //写
+        //写入磁盘
+        
     }
 }
