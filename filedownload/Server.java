@@ -37,6 +37,7 @@ public class Server {
         bufferedInputStream.close();
         inputStream.close();
 
+        accept.close();
 
     }
 }
