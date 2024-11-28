@@ -23,6 +23,6 @@ public class Client {
         //写入磁盘
         String filePath = downloadFileName + ".jpeg";
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(filePath));
-        
+        bufferedOutputStream.write();
     }
 }
