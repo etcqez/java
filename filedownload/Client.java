@@ -21,7 +21,7 @@ public class Client {
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
         //写入磁盘
-        String filePath = "filedownload" + downloadFileName + ".jpeg";
+        String filePath = "filedownload/" + downloadFileName + ".jpeg";
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(filePath));
         bufferedOutputStream.write(bytes);
 
