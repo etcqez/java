@@ -8,7 +8,8 @@ public class Server {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(9999);
         Socket accept = serverSocket.accept();
-        //读取客启端要下载的
+        //读取客启端要下载的文件名
+        
 
     }
 }
