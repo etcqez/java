@@ -28,7 +28,7 @@ public class Server {
         }
 
         //创建一个输入流，读取文件
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream(resFileName));
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(resFileName));
 
     }
 }
