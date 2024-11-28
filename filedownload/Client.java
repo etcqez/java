@@ -26,6 +26,9 @@ public class Client {
         bufferedOutputStream.write(bytes);
 
         //关闭相关流
-        
+        bufferedOutputStream.close();
+        bufferedInputStream.close();
+        socket.close();
+
     }
 }
