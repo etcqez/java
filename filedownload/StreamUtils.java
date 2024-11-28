@@ -1,4 +1,4 @@
-package fileupload;
+package filedownload;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
