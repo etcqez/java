@@ -30,7 +30,8 @@ public class Server {
         //创建一个输入流，读取文件
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(resFileName));
 
-        //使用工具类
+        //使用工具类，读取一个文件到字符数组
+        
 
     }
 }
