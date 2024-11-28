@@ -22,7 +22,9 @@ public class Server {
         }
         String resFileName = ""; //返回的文件名
         if ("cat.jpg".equals(downloadFileName)) {
-            resFileName = 
+            resFileName = "cat.jpg";
+        } else {
+            resFileName = "dog.jpg";
         }
 
 
