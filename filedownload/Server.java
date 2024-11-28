@@ -35,6 +35,7 @@ public class Server {
 
         //关闭相关流
         bufferedInputStream.close();
+        inputStream.close();
 
 
     }
