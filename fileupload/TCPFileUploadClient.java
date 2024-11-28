@@ -7,8 +7,8 @@ import java.net.Socket;
 public class TCPFileUploadClient {
     public static void main(String[] args) throws Exception {
         Socket socket = new Socket(InetAddress.getLocalHost(), 8888);
-        //创建读取磁盘文件的输入流
-        String filePath = "cat.jpg";
+        //创建读datagramP取磁盘文件的输入流
+        String filePath = "fileupload/cat.jpg";
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream(filePath));
 
         //bytes 就是fielPath对应的字节数组
