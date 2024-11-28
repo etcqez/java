@@ -19,9 +19,9 @@ public class Server {
         }
         String resFileName = ""; //返回的文件名
         if ("cat.jpg".equals(downloadFileName)) {
-            resFileName = "cat.jpg";
+            resFileName = "filedownload/cat.jpg";
         } else {
-            resFileName = "dog.jpg";
+            resFileName = "filedownload/dog.jpg";
         }
 
         //创建一个输入流，读取文件
