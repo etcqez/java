@@ -15,6 +15,6 @@ public class Client {
         Socket socket = new Socket(InetAddress.getLocalHost(), 9999);
         OutputStream outputStream = socket.getOutputStream();
         outputStream.write(downloadFileName.getBytes());
-        
+        socket.shutdownOutput();
     }
 }
