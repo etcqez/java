@@ -8,8 +8,8 @@ public class UDPReceiverA {
         DatagramSocket socket = new DatagramSocket(9999);
         //创建一个DatagramPacket对象，准备接收数据
         //一个数据包最大64k
-        byte[] bytes = new byte[1024];
-        
+        byte[] buf = new byte[1024];
+        0w
 
 
     }
