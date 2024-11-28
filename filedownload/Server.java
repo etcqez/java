@@ -1,5 +1,7 @@
 package filedownload;
 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
@@ -21,7 +23,7 @@ public class Server {
         String resFileName = ""; //返回的文件名
 
         //创建一个输入流，读取文件
-        new 
+        BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream());
 
     }
 }
