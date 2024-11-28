@@ -31,6 +31,7 @@ public class Server {
         byte[] bytes1 = StreamUtils.streamToByteArray(bufferedInputStream);
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(accept.getOutputStream());
         bufferedOutputStream.write(bytes1);
+        bufferedOutputStream.flush();
         accept.shutdownOutput();
 
         //关闭相关流
