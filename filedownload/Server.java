@@ -11,7 +11,7 @@ public class Server {
         Socket accept = serverSocket.accept();
         //读取客启端要下载的文件名
         InputStream inputStream = accept.getInputStream();
-        
+        new byte[]
 
     }
 }
