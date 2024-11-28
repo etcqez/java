@@ -21,6 +21,7 @@ public class Client {
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
         //写入磁盘
+        
         new BufferedOutputStream(new FileOutputStream())
     }
 }
