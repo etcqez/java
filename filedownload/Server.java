@@ -38,6 +38,7 @@ public class Server {
         inputStream.close();
 
         accept.close();
+        serverSocket.close();
 
     }
 }
