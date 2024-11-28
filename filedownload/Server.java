@@ -15,7 +15,7 @@ public class Server {
         int len = 0;
         String downloadFileName = "";
         while ((len = inputStream.read(bytes)) != -1) {
-            downloadFileName += new String()
+            downloadFileName += new String(bytes,)
 
         }
 
