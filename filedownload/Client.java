@@ -1,9 +1,6 @@
 package filedownload;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
@@ -24,6 +21,6 @@ public class Client {
         byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
 
         //写入磁盘
-        new BufferedOutputStream()
+        new BufferedOutputStream(new FileOutputStream())
     }
 }
