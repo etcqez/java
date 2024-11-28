@@ -20,6 +20,7 @@ public class Client {
 
         //读取服务端返回的文件
         BufferedInputStream bufferedInputStream = new BufferedInputStream(socket.getInputStream());
-        StreamUtils.streamToByteArray(bufferedInputStream)
+        byte[] bytes = StreamUtils.streamToByteArray(bufferedInputStream);
+        
     }
 }
