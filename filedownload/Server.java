@@ -12,6 +12,7 @@ public class Server {
         //读取客启端要下载的文件名
         InputStream inputStream = accept.getInputStream();
         byte[] bytes = new byte[1024];
+        
 
     }
 }
