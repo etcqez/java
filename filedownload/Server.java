@@ -33,6 +33,9 @@ public class Server {
         bufferedOutputStream.write(bytes1);
         accept.shutdownOutput();
 
+        //关闭相关流
+        
+
 
     }
 }
