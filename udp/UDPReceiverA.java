@@ -12,7 +12,7 @@ public class UDPReceiverA {
         //一个数据包最大64k
         byte[] buf = new byte[1024];
         DatagramPacket packet = new DatagramPacket(buf, buf.length);
-        socket.receive();
+        socket.receive(packet);
 
 
     }
