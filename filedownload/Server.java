@@ -31,7 +31,7 @@ public class Server {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(resFileName));
 
         //使用工具类，读取一个文件到字符数组
-        String s = StreamUtils.streamToString(bufferedInputStream);
+        byte[] bytes1 = StreamUtils.streamToByteArray(bufferedInputStream);
 
 
     }
