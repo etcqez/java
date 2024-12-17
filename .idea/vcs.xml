@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/toshy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/toshy/keymapper-temp" vcs="Git" />
+=======
+>>>>>>> 6f6e6d2b1de75c013629e32fbbac2eba78ca2fb1
   </component>
 </project>
